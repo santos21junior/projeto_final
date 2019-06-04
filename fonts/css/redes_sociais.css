@@ -1,0 +1,101 @@
+@font-face{
+	font-family: Lato-Bold;
+	src:url(../Lato-Bold.woff);
+}
+
+@font-face{
+	font-family: RobotoSlab-Regular;
+	src:url(../RobotoSlab-Regular.woff);
+}
+
+
+/*Topo da página*/
+nav.navbar{
+	padding: 0;
+}
+
+#logo{
+	padding: 0;
+	margin-left: 43px;
+	margin-top: 10px;
+}
+
+/*Corpo*/
+#corpo{
+	width: 100%;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+/*Card*/
+.card{
+	width: 1280px;
+	height: 622px;
+	margin-top: 57px;
+	margin-right: 43px;
+	margin-left: 43px;
+	margin-bottom: 43px;
+}
+
+.p-3{
+	padding: 0px;
+	padding-top: 0rem !important;
+    padding-right: 0rem !important;
+    padding-bottom: 0rem !important;
+    padding-left: 0rem !important;
+}
+
+.primeira_coluna{
+	width: 436px;
+	margin-right: 0px;
+	margin: 0px;
+	float: left;
+}
+
+.segunda_coluna{
+	width: 844px;
+	position: absolute;
+}
+
+#img_contato{
+	width: 810.06px;
+	height: 592.48px;
+	margin-left: 436px;
+}
+
+.titulos{
+	font-family: Lato-Bold;
+	font-size: 20px;
+	text-align: left;
+	color: #727272;
+	margin-left: 108px;
+}
+
+hr.linha_card{
+	width: 308px;
+	border: 1px solid;
+	color: #727272;
+	margin-right: 20px;
+	margin-left: 108px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/*img.icone{
+	
+}*/
+
+#icone{
+	margin-left: 108px;
+	float: left;
+}
+
+#texto_instagram{
+	position: absolute;
+}
+
+#texto_instagram{
+	margin-left: 156px;
+	position: absolute;
+}

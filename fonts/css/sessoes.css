@@ -1,0 +1,198 @@
+@font-face{
+	font-family: Lato-Bold;
+	src:url(../Lato-Bold.woff);
+}
+
+@font-face{
+	font-family: RobotoSlab-Regular;
+	src:url(../RobotoSlab-Regular.woff);
+}
+
+
+/*Topo da página*/
+nav.navbar{
+	padding: 0;
+}
+
+#logo{
+	padding: 0;
+	margin-left: 43px;
+	margin-top: 10px;
+}
+
+/*Corpo*/
+
+div.corpo{
+	width: 100%;
+}
+
+div.col{
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+#imagem_bia{
+	width: 649px;
+	height: 649px;
+	margin-left: 89px;
+	margin-top: 26px;
+}
+
+.botao_voltar{
+	font-family: Lato-Bold;
+	font-size: 14px;
+	width: 200px;
+	height: 48px;
+	color: white;
+	background-color: #00BA91;
+	border-radius: 10px;
+	margin-left: 43px;
+	margin-bottom: 16px;
+	top: 654px;
+	position: absolute;
+}
+
+.botao_voltar:hover {
+  color: #E8E8E8;
+}
+
+/*Card*/
+div.card{
+	width: 524px;
+	height: 214px;
+	border-radius: 10px;
+}
+
+.primeiro_card:hover{
+	border-width: 2px;
+	cursor: pointer;
+	border-color: #4CB9F6!important;
+    border-top-color: #4CB9F6 !important;
+    border-right-color: #4CB9F6 !important;
+    border-bottom-color: #4CB9F6 !important;
+    border-left-color: #4CB9F6 !important;
+}
+
+.segundo_card:hover{
+	cursor: pointer;
+	border-width: 2px;
+	border-color: #FFD178!important;
+    border-top-color: #FFD178 !important;
+    border-right-color: #FFD178 !important;
+    border-bottom-color: #FFD178 !important;
+    border-left-color: #FFD178 !important;
+}
+
+.terceiro_card:hover{
+	cursor: pointer;
+	border-width: 2px;
+	border-color: #5E526B!important;
+    border-top-color: #5E526B !important;
+    border-right-color: #5E526B !important;
+    border-bottom-color: #5E526B !important;
+    border-left-color: #5E526B !important;
+}
+
+.p-3{
+	padding: 0px;
+	padding-top: 0rem !important;
+    padding-right: 0rem !important;
+    padding-bottom: 0rem !important;
+    padding-left: 0rem !important;
+}
+
+.titulo_card{
+	font-family: Lato-Bold;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+#titulo_card_1{
+	color: #4CB9F6;
+}
+
+#titulo_card_2{
+	color: #FFD178;
+}
+
+#titulo_card_3{
+	color:#5E526B;
+}
+
+hr.linha_card{
+	width: 492px;
+	border: 0.5px solid;
+	color: #727272;
+	margin-right: 16px;
+	margin-left: 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+p.texto_card{
+	font-family: RobotoSlab-Regular;
+	color: #727272;
+	font-size: 14px;
+	text-align: justify;
+	margin-top: 16px;
+	margin-right: 16px;
+	margin-left: 16px;
+	margin-bottom: 16px;
+}
+
+div.primeiro_card{
+	margin-top: 26px;
+	margin-left: 61px;
+}
+
+div.segundo_card{
+	margin-top: 18px;
+	margin-left: 61px;
+}
+
+div.terceiro_card{
+	margin-top: 18px;
+	margin-left: 61px;
+}
+
+.progresso_card{
+	font-family: Lato-Bold;
+	font-size: 14px;
+	margin-left: 486px;
+	margin-top: 16px;
+	margin-bottom: 0px;
+}
+
+#progresso_card_1_color{
+	color: #4CB9F6; 
+}
+
+#progresso_card_2_color{
+	color: #FFD178; 
+}
+
+
+#progresso_card_3_color{
+	color:#5E526B;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
