@@ -1,0 +1,109 @@
+@font-face{
+	font-family: Lato-Bold;
+	src:url(../Lato-Bold.woff);
+}
+
+@font-face{
+	font-family: RobotoSlab-Regular;
+	src:url(../RobotoSlab-Regular.woff);
+}
+
+
+/*Topo da página*/
+nav.navbar{
+	padding: 0;
+}
+
+#logo{
+	padding: 0;
+	margin-left: 43px;
+	margin-top: 10px;
+}
+
+/*Corpo*/
+#corpo{
+	width: 100%;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+.primeira_coluna{
+	width: 459.67px;
+	margin-right: 0px;
+	margin: 0px;
+	float: left;
+}
+
+.segunda_coluna{
+	width: 799px;
+	position: absolute;
+	margin-left: 475px;
+	/*float: left;*/
+}
+
+.terceira_coluna{
+	width: 1366px;
+	position: absolute;
+	margin-top: 485.21px;
+}
+
+#imagem_bia{
+	width: 416.67px;
+	height: 428.16px;
+	margin-top: 64.39px;
+	margin-left: 43px;
+}
+
+#titulo_inicio{
+	font-family: Lato-Bold;
+	font-size: 30px;
+	color: #0093FC;
+	text-align: left;
+	margin-top: 84px;
+	margin-bottom: 48px;
+}
+
+#texto_inicio{
+	width: 740px;
+	font-family: RobotoSlab-Regular;
+	font-size: 20px;
+	color: #727272;
+	text-align: left;
+	margin-bottom: 0px;
+}
+
+#seta_baixo{
+	width: 20px;
+	height: 12.98px;
+	margin-left: 350px;
+	margin-top: 16px;
+}
+
+.botao_avancar{
+	font-family: Lato-Bold;
+	font-size: 14px;
+	width: 200px;
+	height: 48px;
+	color: white;
+	background-color: #00BA91;
+	border-radius: 10px;
+	margin-left: 1123px;
+	margin-top: 172.35px;
+	margin-bottom: 16px;
+}
+
+.botao_avancar:hover {
+  color: #E8E8E8;
+}
+
+a#link{
+	width: 1px;
+}
+
+#img_seta_avancar{
+	margin-left: 10px;
+	width: 16px;
+	height: 16px;
+	transform:rotate(180deg); //tente 90 no lugar de 270
+}

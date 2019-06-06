@@ -1,0 +1,74 @@
+@font-face{
+	font-family: Lato-Bold;
+	src:url(../Lato-Bold.woff);
+}
+
+@font-face{
+	font-family: RobotoSlab-Regular;
+	src:url(../RobotoSlab-Regular.woff);
+}
+
+
+/*Topo da página*/
+nav.navbar{
+	padding: 0;
+}
+
+#logo{
+	padding: 0;
+	margin-left: 43px;
+	margin-top: 10px;
+}
+
+/*Corpo*/
+.coluna{
+	width: 416px;
+	height: 100%;
+	float: left;
+}
+
+.primeira_coluna{
+	margin-left: 43px;
+}
+
+.segunda_coluna{
+	margin-left: 16px;
+	margin-right: 16px;
+}
+
+.terceira_coluna{
+	margin-right: 43px;
+}
+
+/*Card*/
+
+.titulo_card{
+	font-family: Lato-Bold;
+	font-size: 18px;
+	margin-top: 16px;
+	margin-bottom: 0px;
+	margin-left: 27px;
+}
+
+hr.linha_card{
+	width: 281px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 27px;
+}
+
+.texto_card{
+	margin-left: 27px;
+}
+
+.card{
+	width: 416px;
+	height: 164px;
+}
+
+.p-3{
+	padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+}
