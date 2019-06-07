@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="Grupo_600" data-name="Grupo 600" transform="translate(-151 -580)">
+    <rect id="Retângulo_247" data-name="Retângulo 247" width="32" height="32" rx="5" transform="translate(151 580)" fill="#4292cc"/>
+    <path id="ic_email_24px" d="M20.432,4H4.048A2.045,2.045,0,0,0,2.01,6.048L2,18.336a2.054,2.054,0,0,0,2.048,2.048H20.432a2.054,2.054,0,0,0,2.048-2.048V6.048A2.054,2.054,0,0,0,20.432,4Zm0,4.1-8.192,5.12L4.048,8.1V6.048l8.192,5.12,8.192-5.12Z" transform="translate(154.76 584.96)" fill="#fff"/>
+  </g>
+</svg>
