@@ -1,12 +1,9 @@
 
 function AlteraImagemNoHover(originClass,newImage) {  
-
     $(originClass).hover(function() {
-    $('#imagem_bia').attr("src",newImage).hide().fadeIn();
-   
+    $('#imagem_bia').attr("src",newImage);
     }, function(){
     });
-
 }
 
 $(document).ready(function () {
