@@ -1,0 +1,342 @@
+@font-face{
+	font-family: Lato-Bold;
+	src:url(../fonts/Lato-Bold.woff);
+}
+
+@font-face{
+	font-family: RobotoSlab-Regular;
+	src:url(../fonts/RobotoSlab-Regular.woff);
+}
+
+@font-face{
+	font-family: Lato-Regular;
+	src:url(../Lato-Regular.woff);
+}
+
+/*Topo da página*/
+nav.navbar{
+	padding: 0;
+}
+
+.linha_vertical{
+	border-left: 1px solid;
+	height: 38px;
+	position: absolute;
+	margin-left: 151px;
+	margin-top: 16.5px;
+}
+
+.titulo_nav{
+	position: absolute;
+	margin-top: 11px;
+	margin-left: 161px;
+}
+
+#titulo_nav{
+	font-family: Lato-Regular;
+	font-size: 20px;
+	color: #4CB9F6;
+}
+
+.subtitulo_nav{
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 161px;
+}
+
+#subtitulo_nav{
+	font-family: Lato-Regular;
+	font-size: 14px;
+	color: #727272;
+}
+
+#logo{
+	float: left;
+	padding: 0;
+	margin-left: 43px;
+	margin-top: 10px;
+}
+
+/*Corpo*/
+
+#corpo{
+	width: 100%;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+.primeira_coluna{
+	width: 459px;
+	margin-right: 0px;
+	margin: 0px;
+	float: left;
+}
+
+.segunda_coluna{
+	width: 740px;
+	position: absolute;
+	margin-left: 576px;
+}
+
+.terceira_coluna{
+	width: 100%;
+	position: absolute;
+	margin-top: 598.37px;
+}
+
+#imagem_bia{
+	width: 431.02px;
+	height: 518.94px;
+	margin-top: 79.43px;
+	margin-left: 27.98px;
+}
+
+#titulo_questionario{
+	font-family: Lato-Bold;
+	font-size: 40px;
+	color: #4CB9F6;
+	margin-top: 63.93px;
+	margin-bottom: 16px;
+}
+
+#texto_questionario{
+	font-family: RobotoSlab-Regular;
+	font-size: 20px;
+	color: #727272;
+	width: 632px;
+	margin-top: 16px;
+	text-align: left;
+	margin: 0px;
+
+}
+
+/*Card*/
+
+.card{
+	width: 740px;
+	height: 221px;
+	margin-top: 19.97px;
+	margin-right: 43px;
+}
+
+.titulo_card{
+	margin-top: 21px;
+	margin-left: 16px;
+	margin-bottom: 0px;
+	font-family: Lato-Regular;
+	font-size: 22px;
+	color: #4CB9F6;
+}
+
+hr.linha_card{
+	width: 707px;
+	margin-top: 11px;
+	margin-left: 16px;
+	margin-bottom: 16px;
+}
+.p-3{
+	padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    margin-left: 0px;
+}
+
+/*Checkbox*/
+
+label.corpo_checkbox {
+  display: block;
+  position: relative;
+  padding: 0%;
+  padding-left: 89px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  font-family: Lato-Regular;
+  font-size: 22px;
+  color: #727272;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.corpo_checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  margin-left: 16px;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background-color: #FFFFFF;
+  border: 2px solid #4CB9F6;
+  border-radius: 4px;
+}
+
+.corpo_checkbox:hover input ~ .checkmark {/*Quando passar o mouse por cima da opção essa cor será exibida*/
+  background-color: #ccc;
+}
+
+.corpo_checkbox input:checked ~ .checkmark {
+  background-color: #4CB9F6;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.corpo_checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.corpo_checkbox .checkmark:after {
+  left: 11px;
+  top: 6px;
+  width: 6px;
+  height: 13px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+}
+
+/*Botão responder*/
+
+.botao_responder{
+	font-family: Lato-Bold;
+	font-size: 14px;
+	width: 200px;
+	height: 48px;
+	border-width: 2px;
+	border-color: #00BA91;
+	background-color: white;
+	position: absolute;
+	border-radius: 10px;
+	margin-left: 1103px;
+	margin-top: 66.53px;
+	margin-bottom: 16px;
+}
+
+.botao_responder:hover{
+	color: #00BA91;
+	border-radius: 10px;
+	border-width: 0px;
+	background-color: #00BA91;	
+}
+
+#texto_btn_responder{
+	margin-top: 14px;
+	color:  #00BA91;
+	float: left;
+	margin-left: 58.27px;
+}
+
+#img_botao_responder{
+	position: absolute;
+	margin-top: 16px;
+	margin-right: 16px;
+}
+
+/*Botão voltar*/
+.botao_voltar{
+	font-family: Lato-Bold;
+	font-size: 14px;
+	width: 200px;
+	height: 48px;
+	background-color:  #00BA91;
+	position: absolute;
+	border-radius: 10px;
+	margin-left: 43px;
+	margin-top: 66.53px;
+	margin-bottom: 16px;
+}
+
+p#texto_btn_voltar{
+	margin-top: 14px;
+	color:  white;
+	float: right;
+	margin-right: 73.73px;
+}
+
+#img_botao_voltar{
+	margin-top: 16px;
+	margin-left: 16px;	
+	float: left;
+}
+
+/*breadcrumb*/
+#breadcrumb_marcado{
+	position: absolute;
+	width: 100px;
+	height: 10px;
+	background-color: #4CB9F6;
+	margin-left: 373px;
+	margin-top: 100.7px;
+	border-radius: 10px 0px 0px 10px;
+	z-index: 2;
+}
+
+#breadcrumb_linha{
+	position: absolute;
+	width: 544px;
+	height: 8px;
+	background-color: #C1E2FD;
+	border-radius: 10px;
+	margin-left: 447px;
+	margin-top: 101.3px;
+	z-index: 1;
+
+}
+
+img#breadcrumb_ponto_1{
+	position: absolute;
+	margin-left: 470.14px;
+	margin-top: 96.7px;
+	z-index: 3;
+}
+
+img#breadcrumb_ponto_2{
+	position: absolute;
+	margin-left: 575.14px;
+	margin-top: 96.7px;
+	z-index: 3;
+}
+
+img#breadcrumb_ponto_3{
+	position: absolute;
+	margin-left: 680.14px;
+	margin-top: 96.7px;
+	z-index: 3;
+}
+
+img#breadcrumb_ponto_4{
+	position: absolute;
+	margin-left: 774.14px;
+	margin-top: 96.7px;
+	z-index: 3;
+}
+
+img#breadcrumb_ponto_5{
+	position: absolute;
+	margin-left: 877.14px;
+	margin-top: 96.7px;
+	z-index: 3;
+}
+
+img#breadcrumb_ponto_6{
+	position: absolute;
+	margin-left: 982.14px;
+	margin-top: 96.7px;
+	z-index: 3;
+}
+
